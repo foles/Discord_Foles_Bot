@@ -16,7 +16,6 @@ client.on('message', msg => {
     }
 
     if (msg.content.toLowerCase() === 'hola') {
-        msg.reply('ella no te ama');
         msg.channel.send(messageEmbed())
         msg.react('💩');
 
